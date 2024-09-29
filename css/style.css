@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #e53b1f;
+  }
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body{
+    background-image: url(../img/fondo_.png);
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.navbar{
+    padding: 40px 0;
+}
+
+.navbar ul li a{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+
+.navbar ul li a:hover{
+    color: var(--red);
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+
+.navbar ul li a.nav-link:focus{
+    color: var(--red);
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+.iconos{
+    margin-top:35px;
+}
+.iconos img{
+    width: 40px;
+    color: #ffffff;
+}
+
+.dma-title{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: none;
+    text-align: center;
+    font-size: 97px;
+    color: #ffffff;
+}
+
+.dma-title span{
+    color: var(--red);
+    font-weight: 600;
+    font-style: normal;
+}
+
+.dma-cards{
+    margin-top: 170px;
+}
+
+.dma-card-red-gradient{
+    background: linear-gradient(45deg, #f5f5f500 0%, #7a3125 100%);
+    border-radius: 10px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.dma-card-red-gradient p{
+    font-size: 18px;
+}
+
+.dma-card-image img{
+   
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.dma-footnote{
+    color: #ffffff;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+
+.dma-title-somos{
+    text-align: left;
+    font-size: 100px;
+}
+
+.dma-somos-parrafo{
+    font-family: 'montserrat', sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight:300;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.dma-somos-letras{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 90px;
+    text-align: center;
+    color:#ffffff;
+
+}
+
+.rojo{
+    color: var(--red);
+}
+
+
+.dma-somos-logo img{
+    margin-top: 60px;
+    width: 215px;
+}
+
+
+.dma-footer-texto{
+    margin-top: 81px;
+    color: #ffffff;
+    font-family: 'montserrat', sans-serif;
+    font-size: 15px ;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+.dma-somos-texto{
+    margin-top: 32px;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.dma-somos-texto p{
+    margin-bottom: 0;
+}
+
+.dma-somos-texto .rojo{
+   
+    margin-top: 0;
+    font-size: 16px;
+
+}
+
+/* 
+//contacto */
+
+body.bg-contacto{
+    background-image: url(../img/fondo_2.png);
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+
+.dma-contacto-title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 62px;
+    color: #ffffff;
+}
+
+.dma-contacto-texto .info-attr p{
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+.dma-contacto-texto span{
+    color: var(--red);
+}
+
+.dma-contacto-texto .info p, a{
+    
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 25px;
+
+}
+
+.dma-footnote.contacto{
+    margin-top: 350px;
+}
+
+.dma-card-red-gradient.contacto{
+
+    border-radius: 20px;
+    padding: 65px;
+}
+
+.dma-cards.compras{
+    margin-top: 60px;
+}
+.bg-compras{
+    background-image: url('../img/fondo-3.png');
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.dma-form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+.dma-form .dma-form-title{
+    color:#ffffff;
+    font-size: 47px;
+}
+
+.dma-form-fields{
+    width: 500px;
+}
+
+.dma-form-fields input{
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.dma-form-fields input:focus{
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.dma-form-fields button{
+    background-color: var(--red);
+    border: none;
+    padding: 15px 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+.dma-form-fields button:hover{
+    background-color: var(--red);
+    padding: 15px 60px;
+    transition: ease 0.2s;
+}
+
+
